@@ -1,12 +1,33 @@
-# React + Vite
+# Entra - Visitor Invite Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Entra** is a modern React-based visitor invite management system designed to streamline the process of creating, managing, and tracking guest entries in an organization. It supports single, bulk, and meeting-based invitations with recurrence scheduling and detailed visitor information.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User authentication with a clean login page
+- Invite form for single, bulk, and meeting invites
+- Recurrence support for repeated visits
+- Responsive UI using **Tailwind CSS**
+- Modal popup to display filled invite details
+- Sidebar navigation for quick access to views and settings
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**
+- **Tailwind CSS**
+- **Lucide React** (icon library)
+- **React Router DOM** (for navigation)
+- **Vite** (fast development server)
+
+## 📦 Installation Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/sagarsati9/Ebrotec.git
+cd Ebrotec/my-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
